@@ -58,3 +58,5 @@ Unfortunately, no changes are planned for this project as it's quite simple in i
 # Attention:exclamation:
 
 This app doesn't have any security mechanism to prevent the User from choosing a really big N. Choosing a very big N can possibly make some harm to your device.
+
+Edit: Now is possible to enter N up to 100 000.
