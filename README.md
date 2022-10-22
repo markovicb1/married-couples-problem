@@ -15,9 +15,9 @@ The app is simple GUI project made in Java to show an answer to the previous que
 The idea was to allow User to ***generate n different Dancing partners concurrently***, in order to make program as fast as possible.
 
 The core of the program lays in Java's wide pallete of concurrent programming libraries, as well as a reliable random number generation library. The User is allowed to choose between 3 different libraries in order to generate couples:
-- Math.Random, considered the standard random number generator
-- util.Random, which ...
-- util.concurrent.ThreadLocalRandom, which is the best random number generator in concurrent programs
+- **Math.Random**, considered the standard random number generator
+- **util.Random**, which is the whole interface of various randomizing methods. It doesn't only makes pseudo random numbers, but also the REAL random numbers as it uses some stochastic principles
+- **util.concurrent.ThreadLocalRandom**, which is the best random number generator in concurrent programs, based on the previous one
 
 ### How to use the program
 
