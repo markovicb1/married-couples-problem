@@ -81,6 +81,9 @@ public Simulacija(){
         else {
             pokreni.setEnabled(false);
             brPonavljanja = Integer.parseInt(ponavljanja.getText());
+            if(brPonavljanja >=100000){
+                brPonavljanja = 50000;
+            }
             ponavljanja.setEnabled(false);
             Generator generator = new Generator(brPonavljanja,metoda);
             generator.startuj();
