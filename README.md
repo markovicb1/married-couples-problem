@@ -51,6 +51,10 @@ The more the generations, the better the results! Mathematical calculation shows
 
 If you are really interested in this problem, you can try and search for `Hat check problem`, which is reversed version of `Married couples/Dancing partners` problem.
 
+### Photo of the app
+
+![VISGUI](https://user-images.githubusercontent.com/115867204/198853465-91120d9f-74f7-44ba-98dd-2b4f6a412eb2.jpg)
+
 # Future changes
 
 Unfortunately, no changes are planned for this project as it's quite simple in it's core.
